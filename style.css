@@ -1,0 +1,150 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url(marble.png);
+  background-size: contain;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.mainTextContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 10px;
+  height: 80%;
+}
+
+.position {
+  width: 25%;
+  height: inherit;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  background-color: #00FFFF90;
+  padding: 5px;
+  height: 100%;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #c2a500;
+}
+
+.textBox {
+  overflow-y: auto;
+}
+
+.text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-indent: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.miniText {
+  font-size: 10px;
+  margin: 0px;
+}
+
+.imageBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 94%;
+}
+
+
+#header0 {
+  animation-play-state: paused;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-size: 60px;
+}
+
+#header1 {
+  animation-play-state: paused;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-decoration-color: #d6b600;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+#header2 {
+  animation-play-state: paused;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  font-size: 35px;
+}
+
+#header3 {
+  animation-play-state: paused;
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  text-decoration-color: #d6b600;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+
+@keyframes header{
+  0%{color: red}
+  
+  16.7%{color:#00FFFF;}
+
+  33.3%{color: #d6b600;}
+
+  50%{color: black;}
+
+  66.7%{color: #d6b600}
+
+  83.3%{color: #00FFFF}
+
+  100%{color: red;}
+}
+
+#phone {
+  display: ;
+  transform: rotate(30deg);
+  position: absolute;
+  bottom: 85%;
+  right: 90%;
+  width: 20px;
+  height: 40px;
+  background-image: url("phone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 300ms;
+}
+
+#woodChipper {
+  display: ;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 12%;
+  height: auto;
+}
